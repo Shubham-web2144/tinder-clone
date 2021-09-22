@@ -1,0 +1,78 @@
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -100;
+}
+.header_icon{
+    padding: 20px;
+}
+.header_logo{
+    color: red;
+}
+.tinderCard{
+    /* margin-top: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+.card{
+    width: 400px;
+    height: 400px;
+    /* background-color: #fff; */
+    box-shadow: 0px 12px 36px rgba(0,0,0,0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 12px;
+    /* border: 1px solid #000; */
+}
+.card_title{
+    color: rgb(166, 30, 245);
+    font-weight: 600;
+    padding: 20px;
+    z-index: 10;
+}
+.footerBar{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 30px;
+}
+.icon_btn{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.6);
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.replay{
+    color: rgb(252, 155, 27);
+}
+.close{
+    color: red;
+}
+.star{
+    color: rgb(38, 69, 241);
+}
+.fav{
+    color: rgb(42, 250, 42);
+}
+.flash{
+    color: rgb(126, 12, 126);
+}
